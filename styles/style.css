@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap');
+
+:root {
+    /* Fonts */
+    --font-base: 'Heebo', sans-serif;
+    --headline-1: bold 2.75rem/3.75rem var(--font-base);
+    --headline-3: bold 1.875rem/2.754rem var(--font-base);
+    --headline-4: bold 1.625rem/2.387rem var(--font-base);
+    --headline-6: 900 1.125rem/3.75rem var(--font-base);
+    --button-text: 500 1.25rem/1.836rem var(--font-base);
+    --body-font: 400 1rem/1.469rem var(--font-base);
+    --subtitle: 400 1.375rem/3.75rem var(--font-base);
+    --caption: 400 1.25rem/1.836rem var(--font-base);
+    --footer-font: 400 0.875rem/1.285rem var(--font-base);
+    /* Colors */
+    --primary-color: #FF6464;
+    --secondary-color: #00A8CC;
+    --dark: #21243D;
+    --light: #8695A4;
+    --white: #FFFFFF;
+    --blue-light: #EDF7FA;
+    --blue-dark: #142850;
+}
+body {
+    background: var(--white);
+    font: var(--body-font);
+}
