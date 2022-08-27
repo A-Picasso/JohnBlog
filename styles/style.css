@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap');
-
+@import './normalize.css';
+@import './header.css';
+@import './button.css';
 :root {
     /* Fonts */
     --font-base: 'Heebo', sans-serif;
@@ -17,11 +19,19 @@
     --secondary-color: #00A8CC;
     --dark: #21243D;
     --light: #8695A4;
+    --coral: #fa3434;
     --white: #FFFFFF;
     --blue-light: #EDF7FA;
     --blue-dark: #142850;
+    --black: #000000;
 }
 body {
     background: var(--white);
     font: var(--body-font);
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
 }

@@ -1,0 +1,49 @@
+.wrapper_header {
+    margin-inline: 1.125rem;
+    margin-block-start: 1.25rem;
+}
+.header {
+    display: flex;
+    justify-content: end;
+}
+.header .button--style {
+    display: none;
+}
+.header ul {
+    display: none;
+}
+.icon-menu {
+    block-size: 3.125rem;
+    inline-size: 3.125rem;
+}
+
+@media screen and (min-width: 768px) {
+    .wrapper_header {
+        margin-inline: 3.75rem;
+        margin-block-start: 1.688rem;
+    }
+    .header {
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header .button--style {
+        display: block;
+    }
+    .header ul {
+        font: var(--button-text);
+        display: flex;
+        gap: 2.063rem;
+    }
+    .header ul li a:link {
+        color: var(--black);
+    }
+    .header ul li a:visited {
+        color: var(--black);
+    }
+    .header ul li a:hover {
+        color: var(--primary-color);
+    }
+    .icon-menu {
+        display: none;
+    }
+}

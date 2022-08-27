@@ -1,0 +1,17 @@
+.button--style {
+    padding-inline: 1.25rem;
+    padding-block: 0.625rem;
+    background: var(--primary-color);
+    color: var(--white);
+    font: var(--button-text);
+    border: 0;
+    border-radius: 0.125rem;
+    cursor: pointer;
+}
+.button--style:hover {
+    background: var(--coral);
+}
+.button--style:active {
+    background: var(--white);
+    color: var(--black);
+}
