@@ -1,25 +1,14 @@
 .wrapper_header {
   background: red;
-  position: fixed;
-  top: 0;
-  left: 0;
-  inline-size: 100%;
-  padding-inline-start: 1.25rem;
-    /* margin-block-start: 1.25rem;  */
-}
-.button-menu,
-.button-close {
-  background: none;
-  border: none;
-  cursor: pointer;
+  margin-inline: 1.25rem;
 }
 .header_nav {
-  /* background: blue; */
-  padding-inline-end: 1.25rem;
+  background: blue;
     display: flex;
     justify-content: space-between;
 }
 .menu {
+  margin-block-start: 0;
   background: greenyellow;
   position: fixed;
   top: 0;
@@ -32,12 +21,33 @@
   pointer-events: none;
   transition: opacity 0.3s;
 }
-.menu li {
+.list {
+  /* background: yellow; */
+  position: fixed;
+  top: 15%;
+  left: 38%;
+  text-align: center;
+}
+.list li {
   padding: 0;
-  align-self: center;
+}
+.list li a {
+  font: var(--headline-3);
+  color: var(--black);
+  line-height: 5.625rem;
 }
 .menu button {
+  margin-block-start: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
   align-self: flex-start;
+}
+.button-menu,
+.button-close {
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 .open-menu:focus:not(:focus-visible),
 .close-menu:focus:not(:focus-visible) {
