@@ -1,21 +1,53 @@
 .wrapper_header {
-    margin-inline: 1.125rem;
-    margin-block-start: 1.25rem;
+  background: red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  inline-size: 100%;
+  padding-inline-start: 1.25rem;
+    /* margin-block-start: 1.25rem;  */
 }
-.header {
+.button-menu,
+.button-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.header_nav {
+  /* background: blue; */
+  padding-inline-end: 1.25rem;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
 }
-.header .button--style {
-    display: none;
+.menu {
+  background: greenyellow;
+  position: fixed;
+  top: 0;
+  left: 0;
+  inline-size: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
 }
-.header ul {
-    display: none;
+.menu li {
+  padding: 0;
+  align-self: center;
 }
-.icon-menu {
-    block-size: 3.125rem;
-    inline-size: 3.125rem;
+.menu button {
+  align-self: flex-start;
 }
+.open-menu:focus:not(:focus-visible),
+.close-menu:focus:not(:focus-visible) {
+  outline: none;
+}
+.menu_opened {
+  opacity: 1;
+  pointer-events: all;
+}
+/*
 
 @media screen and (min-width: 768px) {
     .wrapper_header {
@@ -46,4 +78,4 @@
     .icon-menu {
         display: none;
     }
-}
+} */
