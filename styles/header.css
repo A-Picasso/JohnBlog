@@ -81,28 +81,24 @@
       top: 0;
       left: 0;
       background: none;
-      z-index: -1;
       block-size: 10%;
       opacity: 1;
       pointer-events: all;
     }
     .list {
       position: absolute;
-      top: 20px;
-      /* background: palevioletred; */
+      top: 1.25rem;
       display: flex;
       gap: 2.063rem;
     }
     .list li a{
-      background: red;
       font: var(--button-text);
       cursor: pointer;
     }
     .social{
       position: absolute;
-      top: 20px;
+      top: 1.25rem;
       left: 83.30%;
-      /* background: red; */
     }
     .button-menu,
     .button-close {
