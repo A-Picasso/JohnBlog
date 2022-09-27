@@ -1,45 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>John Blog</title>
-  <link rel="stylesheet" href="./styles/style.css">
-  <script defer src="./js/app.js"></script>
-</head>
-<body>
-  <header class="wrapper_header">
-    <nav class="header_nav">
-      <img src="./assets/logo.svg" alt="Logo">
-      <button class="button-menu">
-        <img src="./assets/icons8-menú.svg" alt="Icon Menu">
-      </button>
-      <ul class="menu">
-        <button class="button-close">
-          <img src="./assets/icons8-eliminar.svg" alt="Icon close">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John Blog</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script defer src="./js/app.js"></script>
+  </head>
+  <body>
+    <header class="wrapper_header">
+      <nav class="header_nav">
+        <img src="./assets/logo.svg" alt="Logo" />
+        <button class="button-menu">
+          <img src="./assets/icons8-menú.svg" alt="Icon Menu" />
         </button>
-        <div class="list">
-          <li><a href="./pages/work.html">Works</a></li>
-          <li><a href="./pages/blog.html">Blog</a></li>
-          <li><a href="./pages/contact.html">Contact</a></li>
+        <ul class="menu">
+          <button class="button-close">
+            <img src="./assets/icons8-eliminar.svg" alt="Icon close" />
+          </button>
+          <div class="list">
+            <li><a href="./pages/work.html">Works</a></li>
+            <li><a href="./pages/blog.html">Blog</a></li>
+            <li><a href="./pages/contact.html">Contact</a></li>
+          </div>
+          <div class="social">
+            <a href="https://www.instagram.com">
+              <img src="./assets/insta.svg" alt="Instagram" />
+            </a>
+            <a href="https://twitter.com/?lang=es">
+              <img src="./assets/twitter.svg" alt="Twitter" />
+            </a>
+            <a href="https://es-la.facebook.com">
+              <img src="./assets/fb.svg" alt="Facebook" />
+            </a>
+            <a href="https://mx.linkedin.com">
+              <img src="./assets/linkedin.svg" alt="Linkedin" />
+            </a>
+          </div>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="wrapper_main">
+      <section class="container_resume">
+        <div class="resume_section">
+          <div class="resume_img">
+            <img src="./assets/ellipse_user.png" alt="Image User" />
+          </div>
+          <div class="resume_text">
+            <h1>Hi, I am John, Creative Technologist</h1>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+            <button class="button--style">Download Resume</button>
+          </div>
         </div>
-        <div class="social">
-          <a href="https://www.instagram.com">
-            <img src="./assets/insta.svg" alt="Instagram">
-          </a>
-          <a href="https://twitter.com/?lang=es">
-            <img src="./assets/twitter.svg" alt="Twitter">
-          </a>
-          <a href="https://es-la.facebook.com">
-            <img src="./assets/fb.svg" alt="Facebook">
-          </a>
-          <a href="https://mx.linkedin.com">
-            <img src="./assets/linkedin.svg" alt="Linkedin">
-          </a>
+      </section>
+
+      <section class="container_recent-posts">
+        <div class="section_recent-post">
+          <div class="title_post">
+            <p>Recent posts</p>
+            <span><a href="">View all</a></span>
+          </div>
+          <div class="cards-post">
+            <div class="card_1 card--style">
+              <h4>Making a design system from scratch</h4>
+              <p>12 Feb 2020 | Design, Pattern</p>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+            <div class="card--style">
+              <h4>Creating pixel perfect icons in Figma</h4>
+              <p>12 Feb 2020 | Figma, Icon Design</p>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
         </div>
-      </ul>
-    </nav>
-  </header>
-</body>
+      </section>
+
+      <section class="works"></section>
+    </main>
+  </body>
 </html>

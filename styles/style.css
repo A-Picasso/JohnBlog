@@ -2,6 +2,9 @@
 @import './normalize.css';
 @import './header.css';
 @import './button.css';
+@import './main.css';
+@import './resume.css';
+@import './recent-post.css';
 :root {
     /* Fonts */
     --font-base: 'Heebo', sans-serif;
