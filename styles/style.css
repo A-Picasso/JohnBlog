@@ -5,6 +5,7 @@
 @import './main.css';
 @import './resume.css';
 @import './recent-post.css';
+@import './works.css';
 :root {
     /* Fonts */
     --font-base: 'Heebo', sans-serif;
@@ -27,6 +28,7 @@
     --blue-light: #EDF7FA;
     --blue-dark: #142850;
     --black: #000000;
+    --gray: #E0E0E0;
 }
 body {
     background: var(--white);

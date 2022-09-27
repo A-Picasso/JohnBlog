@@ -4,6 +4,8 @@
 }
 .section_recent-post {
     margin-inline: 0.688rem;
+    padding-block-end: 1.875rem;
+    padding-block-start: 1rem;
 }
 .section_recent-post p:first-child {
     text-align: center;
@@ -34,6 +36,8 @@
 @media screen and (min-width: 768px) {
     .section_recent-post {
         margin-inline: 9.25rem;
+        padding-block-end: 2rem;
+        padding-block-start: 0;
     }
     .section_recent-post p:first-child {
         font: var(--subtitle);
