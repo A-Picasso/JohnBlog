@@ -1,5 +1,4 @@
 .container_resume {
-    /* background: blue; */
     margin-inline: 1.5rem;
 }
 .resume_img {
@@ -17,7 +16,7 @@
     margin-block-start: 1.688rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 980px) {
     .container_resume {
         margin-inline: 9.25rem;
     }

@@ -1,9 +1,14 @@
 .wrapper_main {
-    /* background: red; */
     margin-block-start: 2.063rem;
 }
 
 @media screen and (min-width: 768px) {
+    .wrapper_main {
+    margin-block-start: 5rem;
+    }
+}
+
+@media screen and (min-width: 980px) {
     .wrapper_main {
         margin-block-start: 9.375rem;
     }

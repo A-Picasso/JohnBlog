@@ -6,6 +6,7 @@
 @import './resume.css';
 @import './recent-post.css';
 @import './works.css';
+@import './footer.css';
 :root {
     /* Fonts */
     --font-base: 'Heebo', sans-serif;

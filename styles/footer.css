@@ -1,0 +1,21 @@
+.wrapper-footer {
+    margin-block-start: 2.5rem;
+    margin-inline: 4.438rem;
+    text-align: center;
+}
+.social-footer {
+    display: flex;
+    justify-content: center;
+    gap: 2.188rem;
+}
+.wrapper-footer p:nth-child(2){
+    margin-block-start: 1.625rem;
+}
+
+@media screen and (min-width: 980px ) {
+    .wrapper-footer {
+        margin-block-start: 3.688rem;
+        margin-inline: 28.688rem;
+        background: red;
+    }
+}
