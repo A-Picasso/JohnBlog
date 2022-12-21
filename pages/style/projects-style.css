@@ -1,0 +1,52 @@
+@import '../../styles/normalize.css';
+@import '../../styles/components.css';
+@import '../style/menu.css';
+@import './wrapper-main.css';
+@import './footer.css';
+
+.wrapper-main h2{
+  font: var(--headline-3);
+  padding: 0;
+  margin: 0;
+  margin-block-end: 1rem;
+}
+.card_img img{
+  max-width: 100%;
+}
+.card_img {
+  margin-block-start: 1.438rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.style--date {
+  display: inline;
+  background: var(--primary-color);
+  font: var(--headline-6);
+  color: var(--white);
+  padding-inline: 0.625rem;
+  border-radius: 1rem;
+}
+.card span {
+  padding-inline-start: 0.938rem;
+}
+.card_content p:nth-child(1){
+  margin-block-end: 1.438rem;
+}
+.card_content p:nth-child(3){
+  padding: 0;
+  margin: 0;
+}
+.wrapper-main h2:nth-child(3) {
+  margin-block-start: 3.438rem;
+}
+
+@media screen and (min-width: 960px) {
+  .wrapper-main {
+    margin-inline: 14.75rem;
+  }
+  .wrapper-main h1{
+    font: var(--headline-1);
+  }
+}

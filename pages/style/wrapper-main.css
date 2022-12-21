@@ -1,0 +1,18 @@
+.wrapper-main {
+  margin-block-start: 2.25rem;
+  margin-inline: 1.125rem;
+}
+.wrapper-main h1 {
+  font: var(--headline-1);
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper-main {
+    margin-inline: 5rem;
+}
+}
+@media screen and (min-width: 960px) {
+  .wrapper-main {
+      margin-inline: 12rem;
+  }
+}

@@ -4,11 +4,18 @@
 @import '../../styles/works.css';
 @import './footer.css';
 
+.wrapper-main h1 {
+    font: var(--headline-1);
+}
 hr {
     margin-block: 1.375rem;
 }
 
 @media screen and (min-width: 768px) {
+    .container_works {
+        margin-inline: 5rem;
+        margin-block-start: 1.563rem;
+    }
     .card_project:nth-child(8) {
         display: flex;
     }
@@ -18,6 +25,13 @@ hr {
     }
     .card_project:nth-child(8) .description_project {
         text-align: end;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .container_works {
+        margin-inline: 14.688rem;
+        margin-block-start: 2rem;
     }
 }
 
