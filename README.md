@@ -1,6 +1,6 @@
 <hr>
 <p align="center">
-      <img src="https://user-images.githubusercontent.com/95196431/229595374-d0086c90-5ebd-474b-a057-4f4c568d8510.png" alt="GitHub header image" />
+    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=800&size=68&pause=1000&color=FF0000&center=true&vCenter=true&repeat=false&width=800&height=80&lines=JohnBlog" alt="Typing SVG" /></a>
 </p>
 <hr>
 <p align="center">
