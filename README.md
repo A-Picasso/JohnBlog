@@ -1,6 +1,6 @@
 <hr>
 <p align="center">
-    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=800&size=68&pause=1000&color=FF0000&center=true&vCenter=true&repeat=false&width=800&height=80&lines=JohnBlog" alt="Typing SVG" /></a>
+    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=800&size=58&pause=1000&color=FF0000&center=true&vCenter=true&repeat=false&width=800&height=80&lines=JohnBlog" alt="Typing SVG" /></a>
 </p>
 <hr>
 <p align="center">
@@ -53,9 +53,6 @@
   </a>
   <a style="margin-left: 10px;" target="_blank" href="mailto:japm996@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  <a style="margin-left: 10px;" target="_blank" href="https://www.instagram.com/japm_5/">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
   </a>
   <a style="margin-left: 10px;" target="_blank" href="https://twitter.com/Dark_Spectre17">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
