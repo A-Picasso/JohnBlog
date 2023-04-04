@@ -4,7 +4,7 @@
 </p>
 <hr>
 <p align="center">
-  <a href="https://a-picasso.github.io/Encrypter-ChallengeOracleONE/">
+  <a href="https://a-picasso.github.io/JohnBlog/">
     <kbd> <br> Website <br> </kbd>
   </a>
 </p>
